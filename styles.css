@@ -1,0 +1,165 @@
+body, html {
+  height: 100%;
+}
+
+body {
+    background-color: #f0e4d7;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #046582;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-align: center;
+  font-size: 3.25rem;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("car.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+}
+
+
+.container-fluid {
+  padding: 10% auto;
+}
+
+.form {
+  width: auto;
+  height: 50%;
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  right: 30%;
+  bottom: 60%;
+}
+
+.form-heading {
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  right: 30%;
+  bottom: 60%;
+  width: 600px;
+}
+
+.form-info {
+  position: absolute;
+  top: 12%;
+  left: 30%;
+  right: 30%;
+  bottom: 50%;
+  margin-top: 2%;
+  padding: 2% 4% 7% 5%;
+}
+
+/* #option {
+  text-align-last:right;
+  padding-right: 60px;
+  direction: rtl;
+} */
+select {
+    text-align: center;
+    text-align-last: center;
+    -moz-text-align-last: center;
+}
+/* select {
+  text-indent: 100px;
+} */
+
+.year {
+  margin: 2% 2%;
+  width: 70%;
+  text-align: center;
+  position: relative;
+  left: 3.3rem;
+}
+
+.initial_price {
+  margin: 2% 2%;
+  width: 70%;
+  text-align: center;
+  position: relative;
+  left: 3.3rem;
+}
+
+.kms_driven {
+  margin: 2% 2%;
+  width: 70%;
+  text-align: center;
+  position: relative;
+  left: 3.3rem;
+}
+
+.owner {
+  margin: 2% 2%;
+  width: 70%;
+  text-align: center;
+  position: relative;
+  left: 3.3rem;
+}
+
+.fuel_type {
+  margin: 2% 2%;
+  width: 70%;
+  text-align: center;
+  position: relative;
+}
+
+.seller_type {
+  margin: 2% 2%;
+  width: 70%;
+  text-align: center;
+  position: relative;
+}
+
+.transmission_type {
+  margin: 2% 2%;
+  width: 70%;
+  text-align: center;
+  position: relative;
+}
+
+.predict-button {
+  margin-top: 15px;
+}
+
+.predict-button:hover {
+  background-color: transparent;
+  color: #00587a;
+}
+
+.fa-link {
+  transform: rotate(45deg);
+}
+
+#backgroundImageAttribution1Container {
+  position: absolute;
+  top: 95%;
+  left: 2%;
+  color: #000;
+  text-decoration: underline;
+  font-size: 0.875rem;
+}
+
+#footer {
+  position: absolute;
+  top: 95%;
+  left: 44%;
+  color: #808080;
+  font-size: 0.75rem;
+  text-align: center;
+}
